@@ -6,13 +6,24 @@
 --prussian-blue: #273043ff;
 --periwinkle: #d8dcffff;
 
---text-color: #273043ff;
---text-accent: #ff6666ff;
---bg-accent: #e9c46aff;
+--text-color: #222E50;
+--text-accent: #439A86;
+--bg-accent: #C08552;
+--link-accent: #FF4D80;
+--bg: #F3E9DC;
 }
 
 body {
+background-color: white;
  color: var(--text-color);
+}
+
+.content {
+	background-color: var(--bg);
+	width: 55%;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .emph {
