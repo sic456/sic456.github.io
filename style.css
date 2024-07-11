@@ -1,0 +1,20 @@
+:root {
+/* CSS HEX */
+--saffron: #e9c46aff;
+--bittersweet: #ff6666ff;
+--air-force-blue: #598392ff;
+--prussian-blue: #273043ff;
+--periwinkle: #d8dcffff;
+
+--text-color: #273043ff;
+--text-accent: #ff6666ff;
+--bg-accent: #e9c46aff;
+}
+
+body {
+ color: var(--text-color);
+}
+
+.emph {
+	color: var(--text-accent);
+}
