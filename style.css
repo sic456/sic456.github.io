@@ -16,6 +16,8 @@
 body {
 background-color: white;
  color: var(--text-color);
+ font-size: 14pt;
+  line-height: 1.2;
 }
 
 .content {
