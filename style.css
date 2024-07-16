@@ -63,3 +63,19 @@ nav li a:hover {
   background-color: var(--bg);
   color: var(--bg-accent);
 }
+
+.bucket {
+	list-style: none;
+}
+
+.bucket li.done:before {
+  content: '\25A3\0020 ';
+}
+
+.bucket li.open:before {
+  content: '\25A2\0020 ';
+}
+
+.bucket li.abandon:before {
+  content: '\229F\0020 ';
+}
