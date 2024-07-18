@@ -79,3 +79,7 @@ nav li a:hover {
 .bucket li.abandon:before {
   content: '\229F\0020 ';
 }
+
+dt {
+	color: var(--text-accent);
+}
